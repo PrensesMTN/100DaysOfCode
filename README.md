@@ -1,139 +1,37 @@
-{
-  "name": "readme-md-generator",
-  "version": "0.1.3",
-  "description": "CLI that generates beautiful README.md files.",
-  "author": "Franck Abgrall",
-  "license": "MIT",
-  "homepage": "https://github.com/kefranabg/readme-md-generator#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kefranabg/readme-md-generator.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kefranabg/readme-md-generator/issues"
-  },
-  "engines": {
-    "npm": ">=5.5.0",
-    "node": ">=9.3.0"
-  }
-}
-# 100DaysOfCode
+# Foobar
 
+Foobar is a Python library for dealing with word pluralization.
 
-# Welcome to <%= 100DaysOfCode %> 👋
-<% if (isProjectOnNpm) { -%>
-[![Version](https://img.shields.io/npm/v/<%= projectName %>.svg)](https://www.npmjs.com/package/<%= projectName %>)
-<% } -%>
-<% if (projectVersion && !isProjectOnNpm) { -%>
-![Version](https://img.shields.io/badge/version-<%= projectVersion %>-blue.svg?cacheSeconds=2592000)
-<% } -%>
-<% if (projectPrerequisites) { -%>
-<% projectPrerequisites.map(({ name, value }) => { -%>
-![Prerequisite](https://img.shields.io/badge/<%= name %>-<%= encodeURIComponent(value) %>-blue.svg)
-<% }) -%>
-<% } -%>
-<% if (projectDocumentationUrl) { -%>
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](<%= projectDocumentationUrl %>)
-<% } -%>
-<% if (isGithubRepos) { -%>
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](<%= repositoryUrl %>/graphs/commit-activity)
-<% } -%>
-<% if (licenseName) { -%>
-[![License: <%= licenseName %>](https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>)](<%= licenseUrl ? licenseUrl : '#' %>)
-<% } -%>
-<% if (authorTwitterUsername) { -%>
-[![Twitter: <%= authorTwitterUsername %>](https://img.shields.io/twitter/follow/<%= authorTwitterUsername %>.svg?style=social)](https://twitter.com/<%= authorTwitterUsername %>)
-<% } -%>
-<% if (projectDescription) { -%>
+## Installation
 
-> <%= projectDescription %>
-<% } -%>
-<% if (projectHomepage) { -%>
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-### 🏠 [Homepage](<%= projectHomepage %>)
-<% } -%>
-<% if (projectDemoUrl) { -%>
-
-### ✨ [Demo](<%= projectDemoUrl %>)
-<% } -%>
-<% if (projectPrerequisites && projectPrerequisites.length) { -%>
-
-## Prerequisites
-
-<% projectPrerequisites.map(({ name, value }) => { -%>
-- <%= name %> <%= value %>
-<% }) -%>
-<% } -%>
-<% if (installCommand) { -%>
-
-## Install
-
-```sh
-<%= installCommand %>
+```bash
+pip install foobar
 ```
-<% } -%>
-<% if (usage) { -%>
 
 ## Usage
 
-```sh
-<%= usage %>
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
 ```
-<% } -%>
-<% if (testCommand) { -%>
 
-## Run tests
+## Contributing
 
-```sh
-<%= testCommand %>
-```
-<% } -%>
-<% if (authorName || authorTwitterUsername || authorGithubUsername) { -%>
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-## Author
-<% if (authorName) { %>
-👤 **<%= authorName %>**
-<% } %>
-<% if (authorWebsite) { -%>
-* Website: <%= authorWebsite %>
-<% } -%>
-<% if (authorTwitterUsername) { -%>
-* Twitter: [@<%= authorTwitterUsername %>](https://twitter.com/<%= authorTwitterUsername %>)
-<% } -%>
-<% if (authorGithubUsername) { -%>
-* GitHub: [@<%= authorGithubUsername %>](https://github.com/<%= authorGithubUsername %>)
-<% } -%>
-<% if (authorLinkedInUsername) { -%>
-* LinkedIn: [@<%= authorLinkedInUsername %>](https://linkedin.com/in/<%= authorLinkedInUsername %>)
-<% } -%>
-<% } -%>
-<% if (issuesUrl) { -%>
+Please make sure to update tests as appropriate.
 
-## 🤝 Contributing
+## License
 
-Contributions, issues and feature requests are welcome!
-
-Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
-<% } -%>
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-<% if (authorPatreonUsername) { -%>
-
-[![support us](https://img.shields.io/badge/become-a patreon%20us-orange.svg?cacheSeconds=2592000)](https://www.patreon.com/<%= authorPatreonUsername %>)
-<% } -%>
-
-<% if (licenseName && licenseUrl) { -%>
-
-## 📝 License
-
-<% if (authorName && authorGithubUsername) { -%>
-Copyright © <%= currentYear %> [<%= authorName %>](https://github.com/<%= authorGithubUsername %>).
-
-<% } -%>
-This project is [<%= licenseName %>](<%= licenseUrl %>) licensed.
-<% } -%>
-
-***
-<%- include('footer.md'); -%>
+[MIT](https://choosealicense.com/licenses/mit/)
