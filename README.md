@@ -1,36 +1,29 @@
-# Foobar
+# 100 days Of Code
+A challenge I started to improve myself on the python programming language and data science for 100 days.
 
-Foobar is a Python library for dealing with word pluralization.
+## What is 100 days of code Challenge?
+The challenge was first started by Alexander Kallaway through his popular article on FreeCodeCamp where he described what 100 days of code Challenge was, what he was planning to do to better his programming & coding skills and some common FAQs regarding it.
 
-## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Features
+The #100DaysOfCode challenge revolves around two fundamental rules outlined on the official 100 Days Of Code website:
 
-```bash
-pip install foobar
-```
+* Dedicate a minimum of one hour each day to coding for the next 100 days.
+* Share your daily progress on Twitter with the hashtag #100DaysOfCode.
 
-## Usage
+The core concept behind this challenge is to publicly commit to completing the 100 days of coding and to use daily tweets to maintain accountability throughout the journey.
 
-```python
-import foobar
 
-# returns 'words'
-foobar.pluralize('word')
+## Support
 
-# returns 'geese'
-foobar.pluralize('goose')
+* [Twitter](https://twitter.com/PrensesMTN) 🐓
+* [LinkedIn](https://www.linkedin.com/in/prenses-metin-35594b237/)🖇️
+* [Instagram](https://www.instagram.com/prensesmtn/)📷
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
 
-## Contributing
+## Thanks
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+[My mate](https://github.com/Berkaysakayik/100DaysOfCode/) 💜
 
 ## License
 
