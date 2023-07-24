@@ -5,14 +5,14 @@ Selenium is a portable framework for testing web applications, which provides an
 
 ## installation
 
-'''
+```
 pip install selenium
-'''
+```
 And you have to install webdriver for Chrome and geckodriver
 
 
 ## Simple code
-'''python
+```python
 
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -27,7 +27,7 @@ driver = webdriver.Chrome()
 driver.get("https://demo.guru99.com/test/simple_context_menu.html")
 driver.maximize_window()
 
-'''
+```
 
 ## Usage
 
