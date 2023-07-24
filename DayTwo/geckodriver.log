@@ -1,0 +1,191 @@
+1633253560654	geckodriver	INFO	Listening on 127.0.0.1:58295
+1633253563702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofilerZqTRK"
+1633253564235	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofilerZqTRK\\search.json.mozlz4", (void 0)))
+1633253567663	Marionette	INFO	Listening on port 58304
+1633253567912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633253570568	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1633253572086	Marionette	INFO	Stopped listening on port 58304
+JavaScript error: https://www.youtube.com/s/desktop/18284868/jsbin/scheduler.vflset/scheduler.js, line 36: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633253578840	geckodriver	INFO	Listening on 127.0.0.1:62748
+1633253581912	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofilexNLewU"
+1633253582437	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofilexNLewU\\search.json.mozlz4", (void 0)))
+1633253585745	Marionette	INFO	Listening on port 62756
+1633253586113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633253693614	geckodriver	INFO	Listening on 127.0.0.1:63702
+1633253696650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileeas1Xb"
+1633253697073	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileeas1Xb\\search.json.mozlz4", (void 0)))
+1633253699952	Marionette	INFO	Listening on port 63712
+1633253700335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1633533467609	geckodriver	INFO	Listening on 127.0.0.1:56199
+1633533470665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileC15xhG"
+1633533471557	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileC15xhG\\search.json.mozlz4", (void 0)))
+1633533475792	Marionette	INFO	Listening on port 56207
+1633533475983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633533493072	Marionette	INFO	Stopped listening on port 56207
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1633534510468	geckodriver	INFO	Listening on 127.0.0.1:53468
+1633534513527	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileVohmsH"
+1633534513919	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileVohmsH\\search.json.mozlz4", (void 0)))
+1633534516767	Marionette	INFO	Listening on port 57037
+1633534517229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 7221 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633534597712	geckodriver	INFO	Listening on 127.0.0.1:54844
+1633534600756	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileKH0epv"
+1633534601158	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileKH0epv\\search.json.mozlz4", (void 0)))
+1633534603979	Marionette	INFO	Listening on port 51429
+1633534604466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 2234 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633534659743	geckodriver	INFO	Listening on 127.0.0.1:60932
+1633534662832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileg4OHcn"
+1633534663276	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileg4OHcn\\search.json.mozlz4", (void 0)))
+1633534666076	Marionette	INFO	Listening on port 49989
+1633534666534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1633534809345	geckodriver	INFO	Listening on 127.0.0.1:57098
+1633534812378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileAlJ6yM"
+1633534812794	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileAlJ6yM\\search.json.mozlz4", (void 0)))
+1633534815583	Marionette	INFO	Listening on port 62612
+1633534816072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 6328 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633534852455	geckodriver	INFO	Listening on 127.0.0.1:63277
+1633534855543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofile6UJJdy"
+1633534855959	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofile6UJJdy\\search.json.mozlz4", (void 0)))
+1633534858694	Marionette	INFO	Listening on port 60363
+1633534858731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 7301 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633534891253	geckodriver	INFO	Listening on 127.0.0.1:65116
+1633534894317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofilem4CLqC"
+1633534894708	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofilem4CLqC\\search.json.mozlz4", (void 0)))
+1633534897402	Marionette	INFO	Listening on port 49637
+1633534897540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2438: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 1236 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633534928805	geckodriver	INFO	Listening on 127.0.0.1:64745
+1633534931870	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileLaLVm2"
+1633534932276	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileLaLVm2\\search.json.mozlz4", (void 0)))
+1633534935033	Marionette	INFO	Listening on port 63223
+1633534935077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 295 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633534993196	geckodriver	INFO	Listening on 127.0.0.1:54462
+1633534996244	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileWJtuo3"
+1633534996635	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileWJtuo3\\search.json.mozlz4", (void 0)))
+1633534999403	Marionette	INFO	Listening on port 58061
+1633534999459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 376 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633535035751	geckodriver	INFO	Listening on 127.0.0.1:57822
+1633535038847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofile5lV5Mq"
+1633535039252	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofile5lV5Mq\\search.json.mozlz4", (void 0)))
+1633535042060	Marionette	INFO	Listening on port 53489
+1633535042605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 4864 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633535070103	geckodriver	INFO	Listening on 127.0.0.1:51714
+1633535073180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileardOUn"
+1633535073581	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileardOUn\\search.json.mozlz4", (void 0)))
+1633535076324	Marionette	INFO	Listening on port 55427
+1633535076373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 2636 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 7779 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633535598477	geckodriver	INFO	Listening on 127.0.0.1:54389
+1633535601537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileBLpDf7"
+1633535601883	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileBLpDf7\\search.json.mozlz4", (void 0)))
+1633535604529	Marionette	INFO	Listening on port 50147
+1633535604730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2438: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 6892 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633536246907	geckodriver	INFO	Listening on 127.0.0.1:56991
+1633536249945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileEp0nHH"
+1633536250407	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileEp0nHH\\search.json.mozlz4", (void 0)))
+1633536253548	Marionette	INFO	Listening on port 51908
+1633536253653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 4508 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633536428546	geckodriver	INFO	Listening on 127.0.0.1:63860
+1633536431593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileBkp18I"
+1633536432593	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileBkp18I\\search.json.mozlz4", (void 0)))
+1633536435694	Marionette	INFO	Listening on port 55417
+1633536435785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2438: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 3899 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633536563769	geckodriver	INFO	Listening on 127.0.0.1:65488
+1633536566802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofiledGmFi9"
+1633536567316	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofiledGmFi9\\search.json.mozlz4", (void 0)))
+1633536570247	Marionette	INFO	Listening on port 60761
+1633536570494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 776 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1633536778745	geckodriver	INFO	Listening on 127.0.0.1:55990
+1633536781792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileRFB1YC"
+1633536782378	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prems\\AppData\\Local\\Temp\\rust_mozprofileRFB1YC\\search.json.mozlz4", (void 0)))
+1633536785712	Marionette	INFO	Listening on port 51484
+1633536785983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.epey.com/akilli-telefonlar/, line 2437: SyntaxError: function statement requires a name
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/y_GpSJCDeJUhy2edwqiqULXjheMgRVI09JfpD4O8H0g.js line 1 > eval line 381 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634548903838	geckodriver	INFO	Listening on 127.0.0.1:50247
+1636557084131	geckodriver	INFO	Listening on 127.0.0.1:50332
