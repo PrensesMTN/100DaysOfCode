@@ -16,3 +16,4 @@ df.plot()
 df.plot(kind = 'scatter', x = 'Duration', y = 'Calories')
 
 plt.show()
+
