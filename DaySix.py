@@ -32,7 +32,7 @@ while True:
         
         if CusTNum> 47 and CusTNum<103:
             if package==1:
-                print(" you canuse two first pakage buss and one second pakage buss  ")
+                print(" you canuse two first package buss and one second pakage buss  ")
 
 
         if CusTNum >23 and CusTNum <= 47:
