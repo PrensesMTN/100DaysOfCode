@@ -1,102 +1,73 @@
 print("""
-****************************************
-*             WELCOME!                 *
-*        We are Tour Persion..         *
-*     We provide world wide tours.     *
-****************************************
+*****************************************
+*               WELCOME                 *
+*         We are Tour Persion.          *
+*      We provide world wide tours.     *
+*   And we only service too 154 people  *    
+*****************************************
+
 """)
-
-print("""
-****************************************
-*             Tour Paris!              *
-*  Eiffel Tower icluded all city tour  *
-*     Three night and four days        *
-*        3000 Euro per person          *
-*           Only for 13 people         *
-****************************************
-""")
-
-print("""
-****************************************
-*             Tour Balkans!            *
-*          Hungary icluded tour        *
-*        Four night and five days      *
-*          1200 Euro per person        *
-*           Only for 21 people         *
-****************************************
-""")
-
-print("""
-****************************************
-*          Tour Egypt - Morocco!       *
-* Pyramids included two countries tour *
-*        Six night and seven days      *
-*          2500 Euro per person        *
-*           Only for 20 people         *        
-****************************************
-""")
-
-
+CusTNum= int(input("How many peope will you be:"))
 while True:
-
-    print("""
-We Provide Three Tours
-1. Tour Paris           (13 People)
-2. Tour Balkan          (21 People)
-3. Tour Egypt - Morocco (20 People)
-
-    """)
-
-    Package = int(input("Please Choose Package (1,2 or 3): "))
-
-    if Package == 1:
-        Person  = int(input("How many people are you be: "))
-        Student = int(input("How many students are you have: "))
-
-        if Person >=0 and Person <= 13:
-            if Student >=0 and Student <= 13:
-                cutstdnt = (Student * 3000)*(20/100)
-                stprice = (Student*3000) - cutstdnt
-                prsnprice = (Person-Student)*3000
-                totalprice = stprice+prsnprice
-                print(f"Your total bill is {totalprice} Euro. {stprice} Euro for students and {prsnprice} Euro is other peoples.")
-                break
-
-        if Person >= 13 and Person <= 21:
-            print("This tour is for only 13 people, if you are more than 13 you can look other tours.")
-
-        else:
-            print("Sorry our capasite is only for package's.")
-            break
-
-    if Package == 2:
-        Person  = int(input("How many people are you be: "))
-        Student = int(input("How many students are you have: "))
-
-        if Person >=0 and Person <= 21:
-            if Student >=0 and Student <= 21:
-                cutstdnt = (Student * 1200)*(20/100)
-                stprice = (Student*1200) - cutstdnt
-                prsnprice = (Person-Student)*1200
-                totalprice = stprice+prsnprice
-                print(f"Your total bill is {totalprice} Euro. {stprice} Euro for students and {prsnprice} Euro is other peoples.")
-                break
         
-        else:
-            print("21 with the highest capacity of the tours we offer.")
-            break
+    if CusTNum > 154 :
+        People =  CusTNum - 154
+        print(f"Sorry we don't have this package for your group size. \nBecause {People} people left outside")
+        break
+    if CusTNum == 154 :
+        print ("You can use our all busses. It takes 2 of 47 seat, 23 seat and VIP 7seat buss's!")
+        break
+    if CusTNum >= 103 and CusTNum < 154 :
+        print ("You can use our one or two of 47 seat, 23 seat and VIP 7 seat buss's!")
+        break
+    else:
+        print(""" 
+        1) First package: 47 seat and slow travel
+        2) Second package: 23 seat and avarage travel
+        3) Third package VIP: 7 seat and fast travel
 
-    if Package == 3:
-        Person  = int(input("How many people are you be: "))
-        Student = int(input("How many students are you have: "))
+        """)
+        package=int(input("You can choose package's(1, 2, or 3): "))
 
-        if Student >=0 and Student <= 20:
-                cutstdnt = (Student * 2500)*(20/100)
-                stprice = (Student*2500) - cutstdnt
-                prsnprice = (Person-Student)*2500
-                totalprice = stprice+prsnprice
-                print(f"Your total bill is {totalprice} Euro. {stprice} Euro for students and {prsnprice} Euro is other peoples.")
-                break
         
-        else:
-            print("Maybe you have to check this Tour Balkan, it is the highest capacity of the tours we offer ")
+        if CusTNum> 47 and CusTNum<103:
+            if package==1:
+                print(" you canuse two first pakage buss and one second pakage buss  ")
+
+
+        if CusTNum >23 and CusTNum <= 47:
+            if package == 1 :
+                print("Right desicion")
+            if package == 2:
+                leftPeople = CusTNum - 23
+                if leftPeople > 23 :
+                    print("you might want to choose fist pakage")
+                
+                if leftPeople > 7 and leftPeople <=23:
+                    print(" We will offer one more Buss to your service.") 
+                
+                if leftPeople <=7:
+                    print("You can Choose Third package with your package. ") 
+            if package == 3:
+                leftPeople = CusTNum - 7
+                if leftPeople > 7 :
+                    print("you might want to choose First pakage")
+                
+                if leftPeople > 0 and leftPeople <=7:
+                    print(" We will offer one more Buss to your service.") 
+
+        if CusTNum < 23 and CusTNum>7 :
+            if package == 2 :
+                print("Right desicion")
+            if package == 1:
+                leftPeople = CusTNum - 23
+                if leftPeople > 23 :
+                    print("you might want to choose fist pakage")
+                
+                if leftPeople > 7 and leftPeople <=23:
+                    print(" We will offer one more Buss to your service.") 
+                
+                if leftPeople <=7:
+                    print("You can Choose Third package with your package. ") 
+
+
