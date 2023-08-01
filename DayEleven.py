@@ -6,36 +6,6 @@
 
 import tkinter as tk
 
-def Fahrenheit_to_celcius():
-    c = int(entry.get())
-    fah = (c*1.8) +32
-    print(c,fah)
-    fah_label["text"] = f"{fah}\N{DEGREE Fahrenheit}"  
-
-
-def celsius_to_fahrenheit():
-    c = int(entry.get())
-    fah = (c*1.8) +32
-    print(c,fah)
-    fah_label["text"] = f"{fah}\N{DEGREE Fahrenheit}"  
-
-
-def celsius_to_Kelvin():
-    c = int(entry.get())
-    fah = (c*1.8) +32
-    print(c,fah)
-    fah_label["text"] = f"{fah}\N{DEGREE Fahrenheit}"  
-
-
-
-def celsius_to_fahr():
-    c = int(entry.get())
-    fah = (c*1.8) +32
-    print(c,fah)
-    fah_label["text"] = f"{fah}\N{DEGREE Fahrenheit}"  
-
-
-
 win = tk.Tk()
 from tkinter import ttk
 
@@ -58,14 +28,93 @@ def get_index2(*arg):
 
 
 def calc():
-    if get_index1() == "0":
+    # **************** fah to other termo values ****************
+    if get_index1() == "0": 
         if get_index2()=="0":
             f = int(entry.get())
-            lbl_res["text"] = f"Results: {f}\N{DEGREE Fahrenheit}"  
+            lbl_res["text"] = f"Results: {f} °F"  
             print(f)
+        elif get_index2()=="1":
+            c=int(float(entry.get())-32)/9*5
+            lbl_res["text"] = f"Results: {c} °C"  
+            print(c)
 
-    v = get_index1()+get_index2()
-    print(v)
+        elif get_index2()=="2":
+            r=int(float(entry.get())+459.67)
+            lbl_res["text"] = f"Results: {r} °R"  
+            print(r)
+
+        elif get_index2()=="3":
+            k=int(float(entry.get())+459.67)/9*5
+            lbl_res["text"] = f"Results: {k} °K"  
+            print(k)
+
+
+    # **************** celcius to other termo values ****************
+    if get_index1() == "1":
+        if get_index2()=="0":
+            f = int(float(entry.get())) *9/5+32
+            lbl_res["text"] = f"Results: {f} °F"  
+            print(f)
+        elif get_index2()=="1":
+            c = int(entry.get())
+            lbl_res["text"] = f"Results: {c} °C"  
+            print(c)
+
+        elif get_index2()=="2":
+            r=int(float(entry.get()) ) / 9*5 + 491.67
+            lbl_res["text"] = f"Results: {r} °R"  
+            print(r)
+
+        elif get_index2()=="3":
+            k=int(float(entry.get())+273.15)            
+            lbl_res["text"] = f"Results: {k} °K"  
+            print(k)
+
+
+    # **************** Reaumur to other termo values ****************
+    if get_index1() == "2":
+        if get_index2()=="0":
+            fah = int(float(entry.get()))-459.67
+            lbl_res["text"] = f"Results: {fah} °F"  
+            print(fah)
+        elif get_index2()=="1":
+            c=int(float(entry.get())) / 9*5 -273.15
+            lbl_res["text"] = f"Results: {c} °C"  
+            print(c)
+
+        elif get_index2()=="2":
+            r = int(entry.get())
+            lbl_res["text"] = f"Results: {r} °R"  
+            print(r)
+
+        elif get_index2()=="3":
+            k=int(float(entry.get()))/5*9
+            lbl_res["text"] = f"Results: {k} °K"  
+            print(k)
+
+
+
+    # **************** kelvin to other termo values ****************
+    if get_index1() == "3":
+        if get_index2()=="0":
+            f = int(float(entry.get()))/5*9- 459.67
+            lbl_res["text"] = f"Results: {f} °F"  
+            print(f)
+        elif get_index2()=="1":
+            c=int(float(entry.get())) - 273.15
+            lbl_res["text"] = f"Results: {c} °C"  
+            print(c)
+
+        elif get_index2()=="2":
+            r=int(float(entry.get()))/5*9
+            lbl_res["text"] = f"Results: {r} °R"  
+            print(r)
+
+        elif get_index2()=="3":
+            k = int(entry.get())
+            lbl_res["text"] = f"Results: {k} °K"  
+            print(k)
 
 
 varCombo1 = tk.StringVar()
