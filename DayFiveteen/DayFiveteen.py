@@ -49,7 +49,6 @@ for col in colm:
 "################ DATA GÖRSELLEŞTİRME ################"
 
 
-
 sns.pairplot(data,hue='Species', diag_kind='hist')   
 
 
@@ -66,25 +65,5 @@ plt.show()
 plt.figure(figsize=(16,7))
 x = plt.xticks(rotation=90)
 sns.kdeplot(data=data ,x="Sepal_length_cm", hue='Species', shade=True)
-
 plt.show()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
