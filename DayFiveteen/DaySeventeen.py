@@ -29,26 +29,28 @@ print("boolean array: \n",boolarray)
 # print("boolean array: \n", boolarray2)
 
 # # boolarray3
-# boolarray3 = np.ones((3,3), dtype=bool)
-# print(boolarray3)
+boolarray3 = np.ones((4,4), dtype=bool)
+print(boolarray3)
 
 # # boolarray4
 # boolarray4 = np.ones((9), dtype=bool).reshape(3,3)
 # print(boolarray4)
 
 # # odd numbers = tek sayılar
-# numar = numarray[numarray%2 != 0]
-# print("\nodd numbers: ", numar)
+numar = numarray[numarray%2 != 0]
+print("\nodd numbers: ", numar)
 
 # #even numbers = çift sayılar
 # numar = numarray[numarray%2 == 0]
 # print( "\neven numbers: ", numar)
 
 # # How to replace items that satisfy a condition with another value in numpy array?
-# numarray[numarray%2 != 0]  = -1
-# print("\nodd numbers: ", numarray)
+numarray[numarray%2 != 0]  = -1
+print("\nodd numbers: ", numarray)
 
 # # How to replace items that satisfy a condition without affecting the original array?
+numarray = np.arange(10)
+
 arr = numarray.copy()
 print("copy of numarray: ", arr)
 
