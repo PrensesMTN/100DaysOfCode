@@ -49,11 +49,11 @@ print("boolean array: \n",boolarray)
 # print("\nodd numbers: ", numarray)
 
 # # How to replace items that satisfy a condition without affecting the original array?
-# arr = numarray.copy()
-# print("copy of numarray: ", arr)
+arr = numarray.copy()
+print("copy of numarray: ", arr)
 
-# arr[arr%2 == 1] = -1
-# print ("\nreplace even number by -1: " , arr)
+arr[arr%2 == 1] = -1
+print ("\nreplace even number by -1: " , arr)
 
 # marr[(marr % 5)!=  0 ] *=-1 
 # print("\nreplace even number by minus ones: " , marr)
